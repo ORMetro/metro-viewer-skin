@@ -52,7 +52,7 @@
 		<button action="toc"		behaviors="fxscreen3" upState="skin#200,0,40,40" overState="skin#200,40,40,40" disabledState="skin#200,80,40,40"></button>
 		<button action="search"		behaviors="fxscreen4" upState="skin#280,0,40,40" overState="skin#280,40,40,40" disabledState="skin#280,80,40,40"></button>
 		<button action="zoom"		behaviors="fxscreen1" upState="skin#320,0,40,40" overState="skin#320,40,40,40" disabledState="skin#320,80,40,40"></button>
-		<button action="url#https%3A%2F%2Fwww.oregonmetro.gov%2Fsites%2Fdefault%2Ffiles%2F2019%2F10%2F24%2FDesigning-Livable-Streets-and-Trails-Guide-Oct-22-2019.pdf" upState="skin#360,0,40,40" overState="skin#360,40,40,40" disabledState="skin#360,80,40,40"></button>
+		<element symbol="skin#360,0,40,40" url="https%3A%2F%2Fwww.oregonmetro.gov%2Fsites%2Fdefault%2Ffiles%2F2019%2F10%2F24%2FDesigning-Livable-Streets-and-Trails-Guide-Oct-22-2019.pdf"></element>
 		<button action="share"		upState="skin#480,0,40,40" overState="skin#480,40,40,40" disabledState="skin#480,80,40,40"></button>
 		<button action="fullscreen" upState="skin#520,0,40,40" overState="skin#520,40,40,40" disabledState="skin#520,80,40,40" showonmode="normal"></button>
 		<button action="fullscreen" upState="skin#560,0,40,40" overState="skin#560,40,40,40" disabledState="skin#560,80,40,40" showonmode="fullscreen"></button>

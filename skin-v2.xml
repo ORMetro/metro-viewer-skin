@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<root xmlns="http://skin.calameo.com/2.0" backgroundColor="0x313639">
+
+	<!--
+		Calaméo Skin: metro
+		Version: 0.21
+		Author: erik goetze
+		Date: 2019-10-23
+		Copyright(c) Metro.
+		erik.goetze@oregonmetro.gov
+		http://www.oregonmetro.gov/
+	-->
+
+	<!-- Assets -->
+	<media name="skin" source="https://library.oregonmetro.gov/files/branding/calameo/assets-metro.png"/>
+
+	<!-- Styles -->
+	<styles>
+	<![CDATA[
+		popups.horizontalmargin=6
+		popups.verticalmargin=6
+		popups.border.radius=4
+		popups.selected.alpha=0.2
+		tooltips.common.border.radius=4
+		tooltips.link.text.color=0xFFFFFF
+		tooltips.link.url.color=0x999999
+		scroller.inertia.deceleration=5
+	]]>
+	</styles>
+
+	<!-- Viewers -->
+	<viewer showonview="book,slide,thumbnails" depth="2" left="50" right="50" top="50" bottom="60"></viewer>
+	<viewer showonview="scroll" depth="2" left="0" right="0" top="0" bottom="0"></viewer>
+
+	<!-- Behaviors -->
+	<behavior name="fxhover" fx="hover" tolerance="220" from="20" to="100" on="both" duration="500" />
+	<behavior name="fxnavnext" fx="navigation" direction="next" />
+	<behavior name="fxscreen1" fx="screen" type="hide" orientation="horizontal" to="540" />
+	<behavior name="fxscreen2" fx="screen" type="hide" orientation="horizontal" to="500" />
+	<behavior name="fxscreen3" fx="screen" type="hide" orientation="horizontal" to="460" />
+	<behavior name="fxscreen4" fx="screen" type="hide" orientation="horizontal" to="420" />
+	<behavior name="fxscreen5" fx="screen" type="hide" orientation="horizontal" to="380" />
+
+	<!-- Toolbar -->
+	<layout showonview="book,slide,thumbnails" right="8" top="4" orientation="horizontal" spacer="0" depth="3" alignment="right,top">
+		<button action="verticalsubmenu" horizontalMargin="6" verticalMargin="6" cornerRadius="4" upState="skin#0,0,40,40" overState="skin#0,40,40,40" disabledState="skin#0,80,40,40">
+			<button action="book"		highlightable="true" tooltip="right" upState="skin#40,4,40,32"  overState="skin#40,44,40,32"  disabledState="skin#40,86,40,28"></button>
+			<button action="slide"		highlightable="true" tooltip="right" upState="skin#80,4,40,32"  overState="skin#80,44,40,32"  disabledState="skin#80,86,40,28"></button>
+			<button action="scroll"		highlightable="true" tooltip="right" upState="skin#120,4,40,32" overState="skin#120,44,40,32" disabledState="skin#120,86,40,28"></button>
+			<button action="thumbnails"	highlightable="true" tooltip="right" upState="skin#160,4,40,32" overState="skin#160,44,40,32" disabledState="skin#160,86,40,28"></button>
+		</button>
+		<button action="toc"		behaviors="fxscreen3" upState="skin#200,0,40,40" overState="skin#200,40,40,40" disabledState="skin#200,80,40,40"></button>
+		<button action="search"		behaviors="fxscreen4" upState="skin#280,0,40,40" overState="skin#280,40,40,40" disabledState="skin#280,80,40,40"></button>
+		<button action="zoom"		behaviors="fxscreen1" upState="skin#320,0,40,40" overState="skin#320,40,40,40" disabledState="skin#320,80,40,40"></button>
+		<button action="download"	upState="skin#360,0,40,40" overState="skin#360,40,40,40" disabledState="skin#360,80,40,40"></button>
+		<button action="share"		upState="skin#480,0,40,40" overState="skin#480,40,40,40" disabledState="skin#480,80,40,40"></button>
+		<button action="fullscreen" upState="skin#520,0,40,40" overState="skin#520,40,40,40" disabledState="skin#520,80,40,40" showonmode="normal"></button>
+		<button action="fullscreen" upState="skin#560,0,40,40" overState="skin#560,40,40,40" disabledState="skin#560,80,40,40" showonmode="fullscreen"></button>
+	</layout>
+
+	<!-- Toolbar -->
+	<layout showonview="scroll" right="30" top="4" orientation="horizontal" spacer="0" depth="3" alignment="right,top">
+		<button action="verticalsubmenu" horizontalMargin="6" verticalMargin="6" cornerRadius="4" upState="skin#0,0,40,40" overState="skin#0,40,40,40" disabledState="skin#0,80,40,40">
+			<button action="book"		highlightable="true" tooltip="right" upState="skin#40,4,40,32"  overState="skin#40,44,40,32"  disabledState="skin#40,86,40,28"></button>
+			<button action="slide"		highlightable="true" tooltip="right" upState="skin#80,4,40,32"  overState="skin#80,44,40,32"  disabledState="skin#80,86,40,28"></button>
+			<button action="scroll"		highlightable="true" tooltip="right" upState="skin#120,4,40,32" overState="skin#120,44,40,32" disabledState="skin#120,86,40,28"></button>
+			<button action="thumbnails"	highlightable="true" tooltip="right" upState="skin#160,4,40,32" overState="skin#160,44,40,32" disabledState="skin#160,86,40,28"></button>
+		</button>
+		<button action="toc"		behaviors="fxscreen3" upState="skin#200,0,40,40" overState="skin#200,40,40,40" disabledState="skin#200,80,40,40"></button>
+		<button action="search"		behaviors="fxscreen4" upState="skin#280,0,40,40" overState="skin#280,40,40,40" disabledState="skin#280,80,40,40"></button>
+		<button action="zoom"		behaviors="fxscreen1" upState="skin#320,0,40,40" overState="skin#320,40,40,40" disabledState="skin#320,80,40,40"></button>
+		<button action="download"	upState="skin#360,0,40,40" overState="skin#360,40,40,40" disabledState="skin#360,80,40,40"></button>
+		<button action="share"		upState="skin#480,0,40,40" overState="skin#480,40,40,40" disabledState="skin#480,80,40,40"></button>
+		<button action="fullscreen" upState="skin#520,0,40,40" overState="skin#520,40,40,40" disabledState="skin#520,80,40,40" showonmode="normal"></button>
+		<button action="fullscreen" upState="skin#560,0,40,40" overState="skin#560,40,40,40" disabledState="skin#560,80,40,40" showonmode="fullscreen"></button>
+	</layout>
+
+	<!-- Slider -->
+	<layout behaviors="fxscreen1" showonview="book,slide" depth="4" percentLeft="0.2" percentRight="0.2" height="40" bottom="5" alignment="center,middle">
+		<slider type="pages" flex="1" orientation="horizontal" bg="skin#560,120,40,14">
+			<button upState="skin#320,120,80,40" overState="skin#400,120,80,40"></button>
+		</slider>
+	</layout>
+
+	<!-- Scrollmode slider -->
+	<layout depth="7" showonview="scroll" alignment="right,top" orientation="vertical" right="0" top="0" width="14" bottom="0">
+		<slider type="pages" bg="_#gfxScrollbarBackgroundV" flex="1" orientation="vertical" shiftstart="51" shiftend="-51">
+			<button upstate="_#gfxScrollbarSliderVOff" overstate="_#gfxScrollbarSliderVHover" downstate="_#gfxScrollbarSliderVDown" disabledstate="_#gfxScrollbarSliderVDisabled"/>
+		</slider>
+	</layout>
+
+	<!-- Bottom navigation -->
+	<layout showonview="scroll" behaviors="fxnavnext,fxhover" backgroundcolor="0x000000" backgroundalpha="70" depth="5" left="0" right="0" bottom="0" height="40" orientation="horizontal" alignment="center,middle">
+		<element symbol="skin#480,120,40,40"></element>
+	</layout>
+	<layout showonview="scroll" behaviors="fxnavnext" depth="6" left="0" right="0" bottom="0" height="40" orientation="horizontal" alignment="center,middle">
+		<button action="nextpage" flex="1" upState="skin#600,120,40,40"></button>
+	</layout>
+
+	<!-- Left navigation -->
+	<layout showonview="book,slide" depth="5" left="5" verticalCenter="0" orientation="vertical" alignment="top,left">
+		<button action="left" upState="skin#0,120,40,40" overState="skin#40,120,40,40" disabledState="skin#600,120,40,40"></button>
+		<button action="fullleft" upState="skin#160,120,40,40" overState="skin#200,120,40,40" disabledState="skin#600,120,40,40"></button>
+	</layout>
+
+	<!-- Right navigation -->
+	<layout showonview="book,slide" depth="5" right="5" verticalCenter="0" orientation="vertical" alignment="top,right">
+		<button action="right" upState="skin#80,120,40,40" overState="skin#120,120,40,40" disabledState="skin#600,120,40,40"></button>
+		<button action="fullright" upState="skin#240,120,40,40" overState="skin#280,120,40,40" disabledState="skin#600,120,40,40"></button>
+	</layout>
+
+	<!-- Volume -->
+	<layout left="0" bottom="0" orientation="horizontal" spacer="0" depth="7" alignment="left,bottom">
+		<button action="volume" upState="skin#400,0,40,40" overState="skin#400,40,40,40" disabledState="skin#400,80,40,40"></button>
+	</layout>
+
+	<!-- Branding -->
+	<branding showonview="book,slide,thumbnails" alignment="right,bottom" depth="7" right="8" bottom="8"/>
+	<branding showonview="scroll" alignment="right,bottom" depth="7" right="30" bottom="8"/>
+
+</root>

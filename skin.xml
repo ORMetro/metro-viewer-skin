@@ -3,7 +3,7 @@
 
 	<!--
 		Calaméo Skin: metro
-		Version: 0.2
+		Version: 0.21
 		Author: erik goetze
 		Date: 2019-10-23
 		Copyright(c) Metro.
@@ -12,7 +12,7 @@
 	-->
 
 	<!-- Assets -->
-	<media name="skin" source="https://library.oregonmetro.gov/files/branding/calameo/assets-metro.png"/>
+	<media name="skin" source="https://ormetro.github.io/metro-viewer-skin/assets-metro.png"/>
 
 	<!-- Styles -->
 	<styles>

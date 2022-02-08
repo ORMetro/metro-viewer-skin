@@ -3,16 +3,16 @@
 
 	<!--
 		Calaméo Skin: metro
-		Version: 0.21
+		Version: 0.22
 		Author: erik goetze
-		Date: 2019-10-23
+		Date: 2022-02-08
 		Copyright(c) Metro.
 		erik.goetze@oregonmetro.gov
 		http://www.oregonmetro.gov/
 	-->
 
 	<!-- Assets -->
-	<media name="skin" source="https://library.oregonmetro.gov/files/branding/calameo/assets-metro.png"/>
+	<media name="skin" source="https://ormetro.github.io/metro-viewer-skin/assets-metro.png"/>
 
 	<!-- Styles -->
 	<styles>
